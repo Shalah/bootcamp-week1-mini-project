@@ -11,13 +11,16 @@ header h1 span{
     color: rgb(123, 203, 240);
 }
 
-footer h3 span{
-    color: rgb(123, 203, 240);
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: right;
 }
 
-header nav ul{
-    text-align: right;
-    color: white;
+header nav ul li{
+    margin-left: 70px;
+    font-size: 20px;
 }
 
 header, footer{
@@ -30,6 +33,10 @@ footer{
     text-align: center;
     font-family:cursive;
     color: rgb(235, 182, 11);
+}
+
+footer h3 span{
+    color: rgb(123, 203, 240);
 }
 
 .body-heading{
@@ -58,14 +65,18 @@ textarea{
 figure {
     display: flex;
     justify-content: center;
+    transform: rotate(20deg);
+    
 }
 
-img{
+figure img{
     width:300px;
     height: 300px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 1px rgb(235, 182, 11);
 }
 
-a, a:link, a:visited, a:focus, a:hover, a:active{ 
+a, a:link, a:visited /* a:focus, a:hover, a:active */{
     text-decoration: none;
     text-decoration-color: none;
 }
