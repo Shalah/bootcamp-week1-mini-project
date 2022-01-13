@@ -2,8 +2,17 @@ body {
     background-color: aqua;  
 }
 
-header{
+.header {
+    color: rgb(235, 182, 11);
     font-family:cursive;
+}
+
+header h1 span{
+    color: rgb(123, 203, 240);
+}
+
+footer h3 span{
+    color: rgb(123, 203, 240);
 }
 
 header nav ul{
@@ -19,10 +28,11 @@ header, footer{
 
 footer{
     text-align: center;
-    
+    font-family:cursive;
+    color: rgb(235, 182, 11);
 }
 
-h1, h2{
+.body-heading{
     text-align: center;
     font-family: fantasy;
 }
@@ -45,7 +55,7 @@ textarea{
     float: center;
 }
 
-div {
+figure {
     display: flex;
     justify-content: center;
 }
