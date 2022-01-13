@@ -1,29 +1,33 @@
 body {
-    background-color: aqua;
-    
+    background-color: aqua;  
+}
+
+header{
+    font-family:cursive;
+}
+
+header nav ul{
+    text-align: right;
+    color: white;
 }
 
 header, footer{
-    background: blueviolet;
-    margin-bottom: 10px;
+    background: rgb(139, 124, 153);
+    border-radius: 10px;
+    font-family:cursive;
 }
 
 footer{
     text-align: center;
-}
-
-nav{
-    text-align: right;
-}
-
-h1 h2{
-    text-align: center;
     
 }
 
-h2{
+h1, h2{
     text-align: center;
-    
+}
+
+p{
+    text-align: center;
 }
 
 form{
