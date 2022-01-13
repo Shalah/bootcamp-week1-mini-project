@@ -26,6 +26,24 @@ h2{
     
 }
 
+form{
+    text-align: center;
+}
+
+textarea{
+    float: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width:300px;
+    height: 300px;
+}
+
 a, a:link, a:visited, a:focus, a:hover, a:active{ 
     text-decoration: none;
     text-decoration-color: none;
